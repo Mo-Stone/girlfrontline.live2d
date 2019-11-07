@@ -19,8 +19,22 @@
 			{"file":"motions/wedding_touch.mtn"}
 		],
 		"idle":[
-			{"file":"motions/daiji_idle_01.mtn"}
-		]
+                   {"file":"motions/daiji_idle_01.mtn"}	,
+                  {"file":"motions/wait_1.mtn"},
+                   {"file":"motions/daiji_idle_01.mtn"}	,
+                  {"file":"motions/wait_2.mtn"},
+            ],
+            "tap_head":[
+                       {"file":"motions/shake.mtn"},
+                       {"file":"motions/touch_01.mtn"},
+                       {"file":"motions/wedding_touch.mtn"}
+                       ],
+            "tap_body":[
+                       {"file":"motions/touch_02.mtn"},
+                       {"file":"motions/touch_04.mtn"},
+                       {"file":"motions/touch_03.mtn"}
+                        ],
+            "tap_leg":[{"file":"motions/touch_05.mtn"}]
 	},
 	"physics":"physics.json",
 	"hit_areas":[
